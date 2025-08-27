@@ -189,6 +189,9 @@ header {
   .mobile[aria-hidden="false"] {
     display: flex;
   }
+  .cta {
+    display: none;
+  }
 }
 
 /* ===== HERO ===== */
@@ -538,3 +541,4 @@ footer {
     animation: none;
   }
 }
+
