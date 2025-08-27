@@ -156,6 +156,15 @@ header {
   box-shadow: var(--shadow);
 }
 
+@media (max-width: 350px){
+  .cta{
+    height: 30px;
+    font-size: 10px;
+    position: relative;
+    left: 70px;
+  }
+}
+
 /* Mobile nav */
 .burger {
   display: none;
@@ -183,14 +192,14 @@ header {
   .menu {
     display: none;
   }
+  .cta{
+    display: none;
+  }
   .burger {
     display: inline-flex;
   }
   .mobile[aria-hidden="false"] {
     display: flex;
-  }
-  .cta {
-    display: none;
   }
 }
 
@@ -332,6 +341,7 @@ header {
     grid-template-columns: 1fr;
   }
 }
+
 @media (max-width: 700px){
   .grid{
     display: flex;
@@ -339,6 +349,8 @@ header {
     align-items: center;
     flex-direction: column;
   }
+}
+
 
 .card {
   background: var(--panel);
@@ -548,5 +560,3 @@ footer {
     animation: none;
   }
 }
-
-
