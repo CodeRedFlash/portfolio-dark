@@ -332,6 +332,13 @@ header {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 700px){
+  .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .card {
   background: var(--panel);
@@ -541,4 +548,5 @@ footer {
     animation: none;
   }
 }
+
 
